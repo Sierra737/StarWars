@@ -84,7 +84,7 @@ function showEveryHero(hero) {
      } else {table.rows[4].cells[1].innerHTML = "has no species"}
   
    
-    //homeworld planet for hero
+    // hero's homeworld planet
     fetch(hero.homeworld)
       .then(response => response.json())
       .then(data => { 
